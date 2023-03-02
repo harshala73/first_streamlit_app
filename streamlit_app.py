@@ -21,3 +21,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 
 streamlit.dataframe(my_fruit_list)
+
+import snowflake.connector
